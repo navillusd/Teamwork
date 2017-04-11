@@ -15,7 +15,7 @@ import sys
 
 class SimpleMailServerProtocol():
     def __init__(self):
-        self.IMQ = []  # incoming_message_queue
+        self.IMQ = []  # incoming_message_queue or nah lolz for the win
         self.MBX = {}  # user_mailboxes
         self.login = {} #registered accounts and passwords
         self.ID = {}  #session ids and usernames
